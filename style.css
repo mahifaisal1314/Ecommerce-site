@@ -1,0 +1,54 @@
+Full-width nav hover effect
+.main-nav .nav-link {
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    position: relative;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+/* hover */
+.main-nav .nav-link:hover {
+    background-color: rgba(255,255,255,0.15);
+    color: #fff !important;
+    border-radius: .5rem;
+}
+
+/* active page marker */
+.main-nav .active-page {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: .5rem;
+}
+
+/* Product cards */
+/* .product-card {
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    transition: box-shadow .2s, transform .2s;
+}
+.product-card:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,.08);
+    transform: translateY(-2px);
+} */
+
+/* Zoom wrapper for product detail image */
+.zoom-wrapper {
+    max-width: 300px;
+    border: 1px solid #e5e7eb;
+    border-radius: .75rem;
+    overflow: hidden;
+    position: relative;
+    cursor: zoom-in;
+}
+.zoom-img {
+    max-width: 100%;
+    transition: transform .2s ease-in-out;
+}
+.zoom-img.zoomed {
+    transform: scale(1.5);
+    cursor: zoom-out;
+}
+
+/* Footer text tiny tune */
+footer p {
+    line-height: 1.4;
+}
